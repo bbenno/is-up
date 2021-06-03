@@ -33,7 +33,7 @@ fisher install bbenno/is-up
 . Clone repository
 +
 [source, shell]
-git clone git@github.com:bbenno/is-up.git && cd is-up
+git clone git://github.com/bbenno/is-up && cd is-up
 
 . Copy `is-up.fish`
 +
