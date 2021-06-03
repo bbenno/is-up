@@ -6,7 +6,6 @@ Is it up? - A simple tool to check if a website or ip address is up or down.
 `is-up` provides a convenient way to check whether certain domains are up or down from within the command line.
 A https://fishshell.com/[fish shell] plugin inspired by https://github.com/sindresorhus/is-up-cli[sindresorhus/is-up-cli].
 
-
 == Install
 
 === https://github.com/jorgebucaran/fisher[Fisher]
@@ -27,7 +26,6 @@ git clone git@github.com:bbenno/is-up.git && cd is-up
 cp functions/is-up.fish ~/.config/fish/functions/
 
 == Usage
-
 
 [source, shell]
 ----
