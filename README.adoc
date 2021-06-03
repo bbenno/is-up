@@ -1,4 +1,12 @@
 = is-up
+:icons: font
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 
 [quote, https://isitup.org/]
 Is it up? - A simple tool to check if a website or ip address is up or down.
@@ -7,6 +15,13 @@ Is it up? - A simple tool to check if a website or ip address is up or down.
 A https://fishshell.com/[fish shell] plugin inspired by https://github.com/sindresorhus/is-up-cli[sindresorhus/is-up-cli].
 
 == Install
+
+.Prerequisite
+[IMPORTANT]
+--
+* https://github.com/curl/curl[curl]
+* https://github.com/stedolan/jq[jq]
+--
 
 === https://github.com/jorgebucaran/fisher[Fisher]
 
